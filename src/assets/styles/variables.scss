@@ -1,25 +1,25 @@
 @font-face {
   font-family: "Roboto";
-  font-weight: 500;
   src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "Roboto";
-  font-weight: 400;
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Roboto";
-  font-weight: 700;
   src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: "SNFBSTRD-handwritten";
+  font-family: "SNFBSTRD";
+  src: url(../fonts/SNFBSTRD/SNFBSTRD.ttf);
   font-weight: 400;
-  src: url(../fonts/SNFBSTRD_handwritten/SNFBSTRD_\ handwrite.ttf);
 }
 
 :root {

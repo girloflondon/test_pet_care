@@ -11,7 +11,7 @@
 }
 
 %font-h2 {
-  font-family: "SNFBSTRD-handwritten";
+  font-family: "SNFBSTRD";
   font-weight: 400;
   font-size: 2.2em;
   line-height: 48px;
@@ -38,7 +38,6 @@
 
 html {
   scroll-behavior: smooth;
-  // overflow-x: hidden;
 }
 
 p,
@@ -140,7 +139,6 @@ a {
   border-bottom: 2px solid transparent;
   transition: border-bottom 1s ease;
 
-  /* Плавная анимация */
   &:hover {
     border-bottom: 2px solid var(--btn-menu);
   }
@@ -267,7 +265,7 @@ a {
 }
 
 .fund {
-  background: url(../images/pics/header-bg.png);
+  background: url("../images/pics/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -333,7 +331,7 @@ a {
 }
 
 .sub-title__h1 {
-  font-family: "SNFBSTRD-handwritten";
+  font-family: "SNFBSTRD";
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 0.05em;
@@ -348,8 +346,6 @@ a {
   }
 }
 
-// .about {
-// }
 .about_first-part {
   display: flex;
   justify-content: flex-start;
@@ -466,9 +462,6 @@ a {
 }
 
 .main {
-  // margin: 0 120px 0 120px;
-  // @include main(400, 24px);
-
   .main__block1 {
     display: grid;
     grid-template: 1fr / 45% 55%;
@@ -1020,7 +1013,6 @@ a {
   }
 }
 
-/* Стиль для модального окна начало */
 .modal {
   display: flex;
   justify-content: center;
@@ -1062,8 +1054,6 @@ a {
 body.modal-active {
   overflow: hidden;
 }
-
-/* Стиль для модального окна конец */
 
 .saveBtn__container {
   margin-top: 3.2%;
