@@ -13,6 +13,14 @@ export default defineConfig({
         changeOrigin: true,
         // rewrite: path => path.replace(/^\/save-content/, ''),
       },
+      "/load-links": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
+      },
+      "/save-link": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
+      },
     },
   },
   build: {
