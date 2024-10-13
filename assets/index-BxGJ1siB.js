@@ -2,7 +2,7 @@
       <div class="list-item__header">
         <img
           class="list-item__header-image"
-          src="../src/assets/images/icons/dog-cat-icon.svg"
+          src="src/assets/images/icons/dog-cat-icon.svg"
           alt="${o.name}"
         />
         <h4 class="list-item__header-title">${o.name}</h4>
