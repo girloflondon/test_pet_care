@@ -18,5 +18,5 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
-  base: "/Pet_Care_Project/",
+  base: "/test_pet_care/",
 });

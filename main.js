@@ -79,7 +79,7 @@ function displayFunds(first, last) {
       <div class="list-item__header">
         <img
           class="list-item__header-image"
-          src="../src/assets/images/icons/dog-cat-icon.svg"
+          src="./src/assets/images/icons/dog-cat-icon.svg"
           alt="${item.name}"
         />
         <h4 class="list-item__header-title">${item.name}</h4>
