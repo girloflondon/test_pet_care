@@ -75,13 +75,11 @@ function displayFunds(first, last) {
     const listItem = document.createElement("div");
     listItem.classList.add("main__list-item");
 
-    const fundImg = "./src/assets/images/icons/dog-cat-icon.svg";
-
     listItem.innerHTML = `
       <div class="list-item__header">
         <img
           class="list-item__header-image"
-          src=${fundImg}
+          src="../src/assets/images/icons/dog-cat-icon.svg"
           alt="${item.name}"
         />
         <h4 class="list-item__header-title">${item.name}</h4>
